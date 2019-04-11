@@ -1,4 +1,4 @@
-url = "http://sf-pyw.mosyag.in/m04/api/forecasts"
+url = "https://sf-pyw.mosyag.in/m04/api/forecasts"
 
 $("#main-header").click(function() {
 	$.getJSON(url, function(prophecies) {
