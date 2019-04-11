@@ -1,5 +1,24 @@
+body {
+	background: rgb(153, 153, 255) url(1.jpg) no-repeat;
+	background-size: 100%;
+}
+
 
 h1 {
 	/*размер текста*/
 	font-size: 30pt;
-	
+	color: rgb(255, 85, 0);
+	text-align: center;
+}
+
+.col-4 {
+	color: rgb(15, 254, 254);
+	text-align: justify;
+	font-size: 15px;
+	font-weight:bold;
+	font-family: Tahoma 
+	}
+
+.bordered:first-letter {
+    color: red; /* Красный цвет первой буквы */
+   }
